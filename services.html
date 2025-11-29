@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - AQUA-TECH PLUMBERS & GENERAL BUILDERS COMPANY LTD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo_one.jpeg" alt="Aqua-Tech Logo" class="logo-img">
+                <span class="logo-text">AQUA-TECH</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link active">Services</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="supply.html" class="nav-link">Supply & Hardware</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Comprehensive Engineering & Plumbing Solutions</p>
+        </div>
+    </section>
+
+    <!-- Services Slideshow -->
+    <section class="services-slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade active">
+                <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1200&h=600&fit=crop" alt="Plumbing Services">
+                <div class="slide-content">
+                    <h2>Professional Plumbing Solutions</h2>
+                    <p>Expert plumbing services for all your needs</p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&h=600&fit=crop" alt="Engineering Projects">
+                <div class="slide-content">
+                    <h2>Engineering Excellence</h2>
+                    <p>Complete engineering solutions for construction projects</p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=600&fit=crop" alt="Hardware Supply">
+                <div class="slide-content">
+                    <h2>Quality Hardware Supply</h2>
+                    <p>Top quality plumbing and hardware items</p>
+                </div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <div class="slideshow-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="services-detailed">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            
+            <div class="service-detail-card">
+                <div class="service-detail-image">
+                    <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=400&fit=crop" alt="Plumbing Installation">
+                </div>
+                <div class="service-detail-content">
+                    <h3><i class="fas fa-faucet"></i> Plumbing Solutions</h3>
+                    <p>We provide comprehensive plumbing services for both residential and commercial properties:</p>
+                    <ul>
+                        <li>Water supply installation and repair</li>
+                        <li>Drainage systems design and installation</li>
+                        <li>Bathroom and kitchen plumbing</li>
+                        <li>Water heater installation and maintenance</li>
+                        <li>Leak detection and repair</li>
+                        <li>Pipe installation and replacement</li>
+                        <li>Emergency plumbing services</li>
+                        <li>Sewer line installation and repair</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail-card reverse">
+                <div class="service-detail-image">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop" alt="Engineering Projects">
+                </div>
+                <div class="service-detail-content">
+                    <h3><i class="fas fa-building"></i> Engineering Projects</h3>
+                    <p>Our certified engineers handle all types of construction and engineering projects:</p>
+                    <ul>
+                        <li>Building construction and renovation</li>
+                        <li>Structural engineering services</li>
+                        <li>Project planning and management</li>
+                        <li>Site preparation and foundation work</li>
+                        <li>General building construction</li>
+                        <li>Construction consultation</li>
+                        <li>Quality assurance and inspection</li>
+                        <li>Project documentation and reporting</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail-card reverse">
+                <div class="service-detail-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" alt="Transport Services">
+                </div>
+                <div class="service-detail-content">
+                    <h3><i class="fas fa-truck"></i> Transport & Logistics</h3>
+                    <p>Reliable transport services for your project materials:</p>
+                    <ul>
+                        <li>Material delivery to project sites</li>
+                        <li>Heavy equipment transportation</li>
+                        <li>Timely and safe delivery</li>
+                        <li>Flexible scheduling</li>
+                        <li>Secure material handling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Benefits -->
+    <section class="service-benefits">
+        <div class="container">
+            <h2 class="section-title">Why Choose Our Services</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Certified Professionals</h4>
+                    <p>All our engineers and technicians are certified and highly trained</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Location Flexible</h4>
+                    <p>We travel to your location and stay until project completion</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h4>Cost-Effective</h4>
+                    <p>Best quotations that are easy to understand and affordable</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Timely Delivery</h4>
+                    <p>We complete projects on time without compromising quality</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="contact.html" class="btn btn-primary">Request a Quotation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>AQUA-TECH</h4>
+                    <p>Certified Engineering & Plumbing Solutions</p>
+                    <p>Founded by Engineer Paul Kamau</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> 0724 103 388</p>
+                    <p><i class="fas fa-id-card"></i> PIN: P051470701N</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Plumbing Solutions</li>
+                        <li>Engineering Projects</li>
+                        <li>Supply & Hardware</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AQUA-TECH PLUMBERS & GENERAL BUILDERS COMPANY LTD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
